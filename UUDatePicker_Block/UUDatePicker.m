@@ -409,9 +409,8 @@
             break;
     }
 
-    [pickerView reloadAllComponents];
-    
     [self playTheDelegate];
+    [pickerView reloadAllComponents];
 }
 
 - (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view
